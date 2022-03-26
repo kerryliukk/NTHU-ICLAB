@@ -1,0 +1,32 @@
+set search_path ". \
+                 /usr/cadtool/GPDK45/gsclib045_svt_v4.4/gsclib045/db/ \
+                 $search_path \
+                "
+								  
+set target_library  "slow_vdd1v2_basicCells_wl.db \
+                     "
+
+set link_library  "  * $target_library 	\
+                     dw_foundation.sldb
+                  "
+
+set symbol_library "generic.sdb"
+set synthetic_library "dw_foundation.sldb"
+
+# Recognize synchronous reset (avoid mixing logics with reset)
+set hdlin_ff_always_sync_set_reset true
+
+#Environment Settings
+set command_log_file "./command.log"
+set view_command_log_file "./view_command.log"
+
+set hdlin_translate_off_skip_text "TRUE"
+set verilogout_no_tri true
+
+set sh_enable_line_editing true
+set sh_line_editing_mode emacs
+history keep 100
+alias h history
+
+#suppress known warning
+suppress_message UID-401
