@@ -1,0 +1,32 @@
+icc_shell> report_area
+ 
+****************************************
+Report : area
+Design : CHIP
+Version: R-2020.09-SP5
+Date   : Wed Jan 19 22:38:30 2022
+****************************************
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /usr/cadtool/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+
+Number of ports:                          998
+Number of nets:                          1723
+Number of cells:                          726
+Number of combinational cells:            725
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        725
+Number of references:                       7
+
+Combinational area:             208854.269754
+Buf/Inv area:                    43374.756910
+Noncombinational area:          121923.548315
+Macro/Black Box area:                0.000000
+Net Interconnect area:          231392.125442
+
+Total cell area:                330777.818069
+Total area:                     562169.943511
+1
+icc_shell> 

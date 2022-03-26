@@ -1,0 +1,221 @@
+Initializing gui preferences from file  /home/u107/u107061246/.synopsys_icc_prefs.tcl
+icc_shell> gui_start
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> source ../setup.tcl
+Information: Variable 'hdlin_translate_off_skip_text' is obsolete and is being ignored. (INFO-100)
+Warning: Variable sh_enable_line_editing can be set only in .synopsys_dc.setup file. (CLE-04)
+Warning: Command line editor is already in emacs mode. (CLE-03)
+icc_shell> ls
+.                             design_planning_blockages.tcl
+..                            filenames.log
+.__tmp_pns_undo_file.tcl      icc_gui.output
+.nfs00000000014fd30300001b91  icc_output.txt
+CHIP                          icc_output_copy.txt
+CHIP_port_map.0               net.acts
+command.log                   pna_output
+default.vpad
+icc_shell> ls
+.                             design_planning_blockages.tcl
+..                            filenames.log
+.__tmp_pns_undo_file.tcl      icc_gui.output
+.nfs00000000014fd30300001b91  icc_output.txt
+CHIP                          icc_output_copy.txt
+CHIP_port_map.0               net.acts
+command.log                   pna_output
+default.vpad
+icc_shell> report_timing
+Error: Current design is not defined. (UID-4)
+0
+icc_shell> open_mw_lib /home/u107/u107061246/ICLAB/final/apr_0.7/icc_run/CHIP
+{CHIP}
+icc_shell> ::iccGUI::open_mw_cel  CHIP
+icc_shell> open_mw_cel CHIP
+Preparing data for query................... 
+Warning: Unit conflict found: Milkyway technology file resistance unit is kOhm; main library resistance unit is MOhm. (IFS-007)
+Warning: Unit conflict found: Milkyway technology file power unit is pW; main library power unit is uW. (IFS-007)
+Information: Opened "CHIP.CEL;1" from "/home/u107/u107061246/ICLAB/final/apr_0.7/icc_run/CHIP" library. (MWUI-068)
+{CHIP}
+icc_shell> 
+icc_shell> ls
+.                             design_planning_blockages.tcl
+..                            filenames.log
+.__tmp_pns_undo_file.tcl      icc_gui.output
+.nfs00000000014fd30300001b91  icc_output.txt
+CHIP                          icc_output_copy.txt
+CHIP_port_map.0               net.acts
+command.log                   pna_output
+default.vpad
+icc_shell> report_timing
+Loading db file '/usr/cadtool/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db'
+Loading db file '/usr/cadtool/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ff1p16vn40c.db'
+Loading db file '/usr/cadtool/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db'
+Loading db file '/usr/cadtool/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ff1p16vn40c_2p75v.db'
+Loading db file '/usr/cadtool/SAED32_EDK/synthesis/cur/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/icc/cur/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/icc/cur/libraries/syn/standard.sldb'
+Information: linking reference library : /usr/cadtool/cad/synopsys/SAED32_EDK/lib/stdcell_hvt/milkyway/saed32nm_hvt_1p9m. (PSYN-878)
+Information: Loading local_link_library attribute {saed32hvt_ss0p95v125c.db, saed32hvt_ff1p16vn40c.db, saed32io_wb_ss0p95v125c_2p25v.db, saed32io_wb_ff1p16vn40c_2p75v.db}. (MWDC-290)
+
+  Linking design 'CHIP'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (1202 designs)            CHIP.CEL, etc
+  saed32hvt_ss0p95v125c (library) /usr/cadtool/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db
+  saed32hvt_ff1p16vn40c (library) /usr/cadtool/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ff1p16vn40c.db
+  saed32io_wb_ss0p95v125c_2p25v (library) /usr/cadtool/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db
+  saed32io_wb_ff1p16vn40c_2p75v (library) /usr/cadtool/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ff1p16vn40c_2p75v.db
+  dw_foundation.sldb (library) /usr/cadtool/SAED32_EDK/synthesis/cur/libraries/syn/dw_foundation.sldb
+
+Information: The design has horizontal rows, and Y-symmetry has been used for sites. (MWDC-217)
+Floorplan loading succeeded.
+
+  Loading design 'CHIP'
+
+
+
+
+Information: Library Manufacturing Grid(GridResolution) : 1
+Information: Time Unit from Milkyway design library: 'ns' 
+Information: Design Library and main library timing units are matched - 1.000 ns. 
+Information: Resistance Unit from Milkyway design library: 'kohm' 
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1000.000 kohm and in the Milkyway design library it is 1.000 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'ff' 
+Information: Design Library and main library capacitance units are matched - 0.001 pf. 
+Warning: Inconsistent library data found for layer PO. (RCEX-018)
+Information: Layer MRDL is ignored for resistance and capacitance computation. (RCEX-019)
+
+TLU+ File = /usr/cadtool/cad/synopsys/SAED32_EDK/tech/star_rcxt/saed32nm_1p9m_Cmax.tluplus
+TLU+ File = /usr/cadtool/cad/synopsys/SAED32_EDK/tech/star_rcxt/saed32nm_1p9m_Cmin.tluplus
+
+--------- Sanity Check on TLUPlus Files -------------
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is detail route TLU+. (RCEX-015)
+Information: Start mixed mode parasitic extraction. (RCEX-023)
+Information: Start rc extraction...
+Information: Parasitic source is LPE. (RCEX-040)
+Information: Parasitic mode is RealRC. (RCEX-041)
+Information: Using virtual shield extraction. (RCEX-081)
+Information: Extraction mode is MIN_MAX. (RCEX-042)
+Information: Extraction derate is -40/25/125. (RCEX-043)
+Information: Coupling capacitances are explicitly created. (RCEX-044)
+Information: Start back annotation for parasitic extraction. (RCEX-023)
+Information: End back annotation for parasitic extraction. (RCEX-023)
+Information: Start timing update for parasitic extraction. (RCEX-023)
+Information: End timing update for parasitic extraction. (RCEX-023)
+Information: End parasitic extraction. (RCEX-023)
+Information: Updating graph... (UID-83)
+
+************************************************************
+SI options:
+Delta Delay Computation:           true
+Static Noise Computation:          true
+Timing window analysis for SI:     false
+Min Delta Delay for SI:            false
+Analysis Effort:                   medium
+Max Transition Mode:               normal_slew
+Static Noise Thresholds:           0.30 (0.28V) above low
+                                   0.30 (0.28V) below high
+Route xtalk prevention:            true
+Route xtalk prevention threshold:  0.35
+************************************************************
+
+Information: Updating design information... (UID-85)
+
+************************************************************
+SI options:
+Delta Delay Computation:           true
+Static Noise Computation:          true
+Timing window analysis for SI:     false
+Min Delta Delay for SI:            false
+Analysis Effort:                   medium
+Max Transition Mode:               normal_slew
+Static Noise Thresholds:           0.30 (0.28V) above low
+                                   0.30 (0.28V) below high
+Route xtalk prevention:            true
+Route xtalk prevention threshold:  0.35
+************************************************************
+
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CHIP
+Version: R-2020.09-SP5
+Date   : Wed Jan 19 22:31:39 2022
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+
+Information: Percent of Arnoldi-based delays = 23.67%
+
+  Startpoint: U0/U2/cnt_col_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: U0/U1/clk_gate_store0_row_2_reg_34_/latch
+            (positive level-sensitive latch clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (propagated)                        0.47       0.47
+  U0/U2/cnt_col_reg_0_/CLK (DFFSSRX1_HVT)                 0.00       0.47 r
+  U0/U2/cnt_col_reg_0_/QN (DFFSSRX1_HVT)                  0.27       0.74 f
+  U0/U2/cnt_col[0] (hog_counter)                          0.00       0.74 f
+  U0/U1/cnt_col[0] (HOG_BITWIDTH8)                        0.00       0.74 f
+  U0/U1/U1163/Y (INVX0_HVT)                               0.15 &     0.88 r
+  U0/U1/U252/Y (OR3X1_HVT)                                0.17 &     1.06 r
+  U0/U1/U681/Y (OR2X1_HVT)                                0.11 &     1.17 r
+  U0/U1/U3353/SO (HADDX1_HVT)                             0.16 &     1.32 f
+  U0/U1/U643/Y (AND3X1_HVT)                               0.16 &     1.48 f
+  U0/U1/U607/Y (AND2X1_HVT)                               0.14 &     1.62 f
+  U0/U1/U18641/Y (NBUFFX8_HVT)                            0.10 @     1.72 f
+  U0/U1/U18648/Y (NBUFFX8_HVT)                            0.12 @     1.84 f
+  U0/U1/U18649/Y (INVX0_HVT)                              0.06 @     1.91 r
+  U0/U1/U1642/Y (AND2X1_HVT)                              0.09 &     2.00 r
+  U0/U1/U18809/Y (NBUFFX4_HVT)                            0.11 &     2.11 r
+  U0/U1/U18810/Y (INVX16_HVT)                             0.07 @     2.18 f
+  U0/U1/clk_gate_store0_row_2_reg_34_/EN (SNPS_CLOCK_GATE_HIGH_HOG_BITWIDTH8_mydesign_413)
+                                                          0.00       2.18 f
+  U0/U1/clk_gate_store0_row_2_reg_34_/latch/D (LATCHX1_HVT)
+                                                          0.04 @     2.22 f
+  data arrival time                                                  2.22
+
+  clock clk' (rise edge)                                  2.50       2.50
+  clock network delay (propagated)                        0.48       2.98
+  U0/U1/clk_gate_store0_row_2_reg_34_/latch/CLK (LATCHX1_HVT)
+                                                          0.00       2.98 r
+  time borrowed from endpoint                             0.00       2.98
+  data required time                                                 2.98
+  --------------------------------------------------------------------------
+  data required time                                                 2.98
+  data arrival time                                                 -2.22
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.76
+
+  Time Borrowing Information
+  --------------------------------------------------------------
+  clk' nominal pulse width                                2.50   
+  clock latency difference                                0.02   
+  library setup time                                     -0.11   
+  --------------------------------------------------------------
+  max time borrow                                         2.41   
+  actual time borrow                                      0.00   
+  --------------------------------------------------------------
+
+
+1
+icc_shell> 
