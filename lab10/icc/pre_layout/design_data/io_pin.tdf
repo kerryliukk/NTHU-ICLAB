@@ -1,0 +1,85 @@
+
+#Left-side pins from bottom to top
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[0\]					-order 1	-offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[1\]					-order 2	-offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[2\]					-order 3	-offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[3\]					-order 4	-offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[4\]					-order 5	-offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[5\]					-order 6	-offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[6\]					-order 7	-offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[7\]					-order 8	-offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[8\]					-order 9	-offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[9\]					-order 10 -offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[10\]				-order 11 -offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[11\]				-order 12 -offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[12\]				-order 13 -offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[13\]				-order 14 -offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[14\]				-order 15 -offset 0
+set_pin_physical_constraints -side 1 -pin_name peri_addr\[15\]				-order 16 -offset 0
+set_pin_physical_constraints -side 1 -pin_name boot_up     						-order 17 -offset 0
+set_pin_physical_constraints -side 1 -pin_name boot_web								-order 18 -offset 0
+set_pin_physical_constraints -side 1 -pin_name boot_addr\[0\]					-order 19 -offset 0
+
+#Top-side pins from left to right
+set_pin_physical_constraints -side 2 -pin_name boot_addr\[1\]					-order 1	-offset 0
+set_pin_physical_constraints -side 2 -pin_name boot_addr\[2\]					-order 2	-offset 0
+set_pin_physical_constraints -side 2 -pin_name boot_addr\[3\]					-order 3	-offset 0
+set_pin_physical_constraints -side 2 -pin_name boot_addr\[4\]					-order 4	-offset 0
+set_pin_physical_constraints -side 2 -pin_name boot_addr\[5\]					-order 5	-offset 0
+set_pin_physical_constraints -side 2 -pin_name boot_addr\[6\]					-order 6	-offset 0
+set_pin_physical_constraints -side 2 -pin_name boot_addr\[7\]					-order 7	-offset 0
+set_pin_physical_constraints -side 2 -pin_name rst_n									-order 8	-offset 0
+set_pin_physical_constraints -side 2 -pin_name clk										-order 9	-offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_web								-order 10 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[0\]	  		-order 11 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[1\]	  		-order 12 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[2\]	  		-order 13 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[3\]	  		-order 14 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[4\]	  		-order 15 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[5\]	  		-order 16 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[6\]	  		-order 17 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[7\]	  		-order 18 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[8\]	  		-order 19 -offset 0
+set_pin_physical_constraints -side 2 -pin_name peri_datao\[9\]	  		-order 20 -offset 0
+
+#Right-side pins from bottom to top
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[19\]				-order 1	-offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[20\]				-order 2	-offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[21\]				-order 3	-offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[22\]				-order 4	-offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[23\]				-order 5	-offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[24\]				-order 6	-offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[25\]				-order 7	-offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[26\]				-order 8	-offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[27\]				-order 9	-offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[28\]				-order 10 -offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[29\]				-order 11 -offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[30\]				-order 12 -offset 0
+set_pin_physical_constraints -side 3 -pin_name boot_datai\[31\]				-order 13 -offset 0
+set_pin_physical_constraints -side 3 -pin_name peri_datao\[15\]				-order 14 -offset 0
+set_pin_physical_constraints -side 3 -pin_name peri_datao\[14\]				-order 15 -offset 0
+set_pin_physical_constraints -side 3 -pin_name peri_datao\[13\]				-order 16 -offset 0
+set_pin_physical_constraints -side 3 -pin_name peri_datao\[12\]				-order 17 -offset 0
+set_pin_physical_constraints -side 3 -pin_name peri_datao\[11\]				-order 18 -offset 0
+set_pin_physical_constraints -side 3 -pin_name peri_datao\[10\]				-order 19 -offset 0
+                                                                      
+#Bottom-side pads from left to right
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[0\]				-order 1	-offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[1\]				-order 2	-offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[2\]				-order 3	-offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[3\]				-order 4	-offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[4\]				-order 5	-offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[5\]				-order 6	-offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[6\]				-order 7	-offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[7\]				-order 8	-offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[8\]				-order 9	-offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[9\]				-order 10 -offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[10\]				-order 11 -offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[11\]				-order 12 -offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[12\]				-order 13 -offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[13\]				-order 14 -offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[14\]				-order 15 -offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[15\]				-order 16 -offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[16\]				-order 17 -offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[17\]				-order 18 -offset 0
+set_pin_physical_constraints -side 4 -pin_name boot_datai\[18\]				-order 19 -offset 0

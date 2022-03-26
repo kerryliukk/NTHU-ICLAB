@@ -1,0 +1,71 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : top_pipe
+Version: G-2012.06-SP5
+Date   : Sun Apr  6 12:37:16 2014
+****************************************
+
+
+   max_fanout
+
+                             Required        Actual
+   Net                        Fanout         Fanout          Slack
+   -----------------------------------------------------------------
+   top0/EXE_PC[15]              0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/add_x_2_n1
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/add_x_2_n27
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/add_x_14_n77
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/add_x_14_n78
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/add_x_14_n103
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/add_x_14_n104
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/add_x_14_n106
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/n233      0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/n234      0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/n253      0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/n262      0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/sub_x_3_n2
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/sub_x_3_n9
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/sub_x_3_n15
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/sub_x_3_n16
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/sub_x_3_n28
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/sub_x_3_n84
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/sub_x_3_n135
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/sub_x_3_n142
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/alu/sub_x_3_n242
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/intadd_0_n1
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/intadd_0_n2
+                                0.82           1.00          -0.18  (VIOLATED)
+   top0/EXE_stage/n2            0.82           1.00          -0.18  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      26                 -4.32  
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   top_pipe                     0.00       243478.30      -243478.30
+                                                                    (VIOLATED)
+
+
+1

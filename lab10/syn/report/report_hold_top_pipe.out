@@ -1,0 +1,165 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 4
+Design : top_pipe
+Version: G-2012.06-SP5
+Date   : Sun Apr  6 12:37:16 2014
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: top0/ID_stage/dcache/clk_gate_data_out1_reg/latch
+              (positive level-sensitive latch clocked by clk')
+  Endpoint: top0/ID_stage/dcache/clk_gate_data_out1_reg/main_gate
+            (gating element for clock clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_dsram_mydesign_0_mydesign_0
+                     ForQA                 saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk' (rise edge)                                  1.60       1.60
+  clock network delay (ideal)                             0.00       1.60
+  top0/ID_stage/dcache/clk_gate_data_out1_reg/latch/CLK (LATCHX1_HVT)
+                                                          0.00       1.60 r
+  top0/ID_stage/dcache/clk_gate_data_out1_reg/latch/Q (LATCHX1_HVT)
+                                                          0.11       1.71 f
+  top0/ID_stage/dcache/clk_gate_data_out1_reg/main_gate/A1 (AND2X1_HVT)
+                                                          0.00       1.71 f
+  data arrival time                                                  1.71
+
+  clock clk (fall edge)                                   1.60       1.60
+  clock network delay (ideal)                             0.00       1.60
+  top0/ID_stage/dcache/clk_gate_data_out1_reg/main_gate/A2 (AND2X1_HVT)
+                                                          0.00       1.60 f
+  clock gating hold time                                  0.00       1.60
+  data required time                                                 1.60
+  --------------------------------------------------------------------------
+  data required time                                                 1.60
+  data arrival time                                                 -1.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: top0/ID_stage/dcache/clk_gate_data_out1_reg_0/latch
+              (positive level-sensitive latch clocked by clk')
+  Endpoint: top0/ID_stage/dcache/clk_gate_data_out1_reg_0/main_gate
+            (gating element for clock clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_dsram_mydesign_0_mydesign_1027
+                     ForQA                 saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk' (rise edge)                                  1.60       1.60
+  clock network delay (ideal)                             0.00       1.60
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_0/latch/CLK (LATCHX1_HVT)
+                                                          0.00       1.60 r
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_0/latch/Q (LATCHX1_HVT)
+                                                          0.11       1.71 f
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_0/main_gate/A1 (AND2X1_HVT)
+                                                          0.00       1.71 f
+  data arrival time                                                  1.71
+
+  clock clk (fall edge)                                   1.60       1.60
+  clock network delay (ideal)                             0.00       1.60
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_0/main_gate/A2 (AND2X1_HVT)
+                                                          0.00       1.60 f
+  clock gating hold time                                  0.00       1.60
+  data required time                                                 1.60
+  --------------------------------------------------------------------------
+  data required time                                                 1.60
+  data arrival time                                                 -1.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: top0/ID_stage/dcache/clk_gate_data_out1_reg_1/latch
+              (positive level-sensitive latch clocked by clk')
+  Endpoint: top0/ID_stage/dcache/clk_gate_data_out1_reg_1/main_gate
+            (gating element for clock clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_dsram_mydesign_0_mydesign_1026
+                     ForQA                 saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk' (rise edge)                                  1.60       1.60
+  clock network delay (ideal)                             0.00       1.60
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_1/latch/CLK (LATCHX1_HVT)
+                                                          0.00       1.60 r
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_1/latch/Q (LATCHX1_HVT)
+                                                          0.11       1.71 f
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_1/main_gate/A1 (AND2X1_HVT)
+                                                          0.00       1.71 f
+  data arrival time                                                  1.71
+
+  clock clk (fall edge)                                   1.60       1.60
+  clock network delay (ideal)                             0.00       1.60
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_1/main_gate/A2 (AND2X1_HVT)
+                                                          0.00       1.60 f
+  clock gating hold time                                  0.00       1.60
+  data required time                                                 1.60
+  --------------------------------------------------------------------------
+  data required time                                                 1.60
+  data arrival time                                                 -1.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: top0/ID_stage/dcache/clk_gate_data_out1_reg_2/latch
+              (positive level-sensitive latch clocked by clk')
+  Endpoint: top0/ID_stage/dcache/clk_gate_data_out1_reg_2/main_gate
+            (gating element for clock clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_dsram_mydesign_0_mydesign_1025
+                     ForQA                 saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk' (rise edge)                                  1.60       1.60
+  clock network delay (ideal)                             0.00       1.60
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_2/latch/CLK (LATCHX1_HVT)
+                                                          0.00       1.60 r
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_2/latch/Q (LATCHX1_HVT)
+                                                          0.11       1.71 f
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_2/main_gate/A1 (AND2X1_HVT)
+                                                          0.00       1.71 f
+  data arrival time                                                  1.71
+
+  clock clk (fall edge)                                   1.60       1.60
+  clock network delay (ideal)                             0.00       1.60
+  top0/ID_stage/dcache/clk_gate_data_out1_reg_2/main_gate/A2 (AND2X1_HVT)
+                                                          0.00       1.60 f
+  clock gating hold time                                  0.00       1.60
+  data required time                                                 1.60
+  --------------------------------------------------------------------------
+  data required time                                                 1.60
+  data arrival time                                                 -1.71
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+1
