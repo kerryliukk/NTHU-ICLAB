@@ -1,0 +1,12 @@
+(SAIFILE
+(SAIFVERSION "2.0")
+(DIRECTION "backward")
+(DESIGN "my_div")
+(DATE "Thu Nov 18 00:10:01 2021")
+(VENDOR "Synopsys, Inc")
+(PROGRAM_NAME "Power Compiler write_saif")
+(PROGRAM_VERSION "R-2020.09-SP5")
+(DIVIDER / )
+(TIMESCALE 1 ns)
+(DURATION 1000.00)
+)
