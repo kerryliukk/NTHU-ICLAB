@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : qr_decode
+Version: R-2020.09-SP5
+Date   : Thu Nov 25 23:09:40 2021
+****************************************
+
+
+   max_transition
+
+                             Required        Actual
+   Net                      Transition     Transition        Slack
+   -----------------------------------------------------------------
+   U179/n60                     0.13           0.13           0.00  (VIOLATED: increase significant digits)
+   U180/n59                     0.13           0.13           0.00  (VIOLATED: increase significant digits)
+   U181/n59                     0.13           0.13           0.00  (VIOLATED: increase significant digits)
+
+   -----------------------------------------------------------------
+   Total                      3                  -0.01  
+
+   max_capacitance
+
+                             Required        Actual
+   Net                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   U179/n69                     8.00          10.14          -2.14  (VIOLATED)
+   U180/n68                     8.00          10.14          -2.14  (VIOLATED)
+   U181/n68                     8.00          10.14          -2.14  (VIOLATED)
+   U179/n78                     8.00           9.09          -1.09  (VIOLATED)
+   U179/n71                     8.00           8.19          -0.19  (VIOLATED)
+   U180/n70                     8.00           8.19          -0.19  (VIOLATED)
+   U181/n70                     8.00           8.19          -0.19  (VIOLATED)
+   U179/n60                     8.00           8.08          -0.08  (VIOLATED)
+   U180/n59                     8.00           8.08          -0.08  (VIOLATED)
+   U181/n59                     8.00           8.08          -0.08  (VIOLATED)
+   U180/n77                     8.00           8.07          -0.07  (VIOLATED)
+   U181/n77                     8.00           8.07          -0.07  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      12                 -8.45  
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   qr_decode                    0.00       228460.27      -228460.27
+                                                                    (VIOLATED)
+
+
+1
