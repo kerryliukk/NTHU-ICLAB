@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : enigma_part2
+Version: R-2020.09-SP5
+Date   : Tue Nov  9 20:33:04 2021
+****************************************
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: srstn (input port clocked by clk)
+  Endpoint: clk_gate_rotorA_table_reg_42_/latch
+            (positive level-sensitive latch clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  enigma_part2       35000                 saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  input external delay                                  4.5000     4.5000 r
+  srstn (in)                                            0.0000     4.5000 r
+  U6841/Y (INVX32_HVT)                                  0.0129     4.5129 f
+  U6842/Y (INVX16_HVT)                                  0.0135     4.5264 r
+  U8050/Y (AND2X1_HVT)                                  0.0690     4.5955 r
+  U14171/Y (AND3X1_HVT)                                 0.1162     4.7117 r
+  U14172/Y (AND3X1_HVT)                                 0.1494     4.8611 r
+  U14227/Y (AND2X1_HVT)                                 0.1134     4.9745 r
+  U14228/Y (AO22X1_HVT)                                 0.1026     5.0770 r
+  clk_gate_rotorA_table_reg_42_/EN (SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_101)
+                                                        0.0000     5.0770 r
+  clk_gate_rotorA_table_reg_42_/latch/D (LATCHX1_HVT)   0.0000     5.0770 r
+  data arrival time                                                5.0770
+
+  clock clk' (rise edge)                                4.5000     4.5000
+  clock network delay (ideal)                           0.0000     4.5000
+  clk_gate_rotorA_table_reg_42_/latch/CLK (LATCHX1_HVT)
+                                                        0.0000     4.5000 r
+  time borrowed from endpoint                           0.5770     5.0770
+  data required time                                               5.0770
+  --------------------------------------------------------------------------
+  data required time                                               5.0770
+  data arrival time                                               -5.0770
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.0000
+
+  Time Borrowing Information
+  --------------------------------------------------------------
+  clk' nominal pulse width                              4.5000   
+  library setup time                                   -0.1078   
+  --------------------------------------------------------------
+  max time borrow                                       4.3922   
+  actual time borrow                                    0.5770   
+  --------------------------------------------------------------
+
+
+1

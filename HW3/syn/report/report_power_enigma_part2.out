@@ -1,0 +1,328 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : enigma_part2
+Version: R-2020.09-SP5
+Date   : Tue Nov  9 20:33:05 2021
+****************************************
+
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /usr/cadtool/SAED32_EDK/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+enigma_part2           35000             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_0
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_1
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_2
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_3
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_4
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_5
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_6
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_7
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_8
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_9
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_10
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_11
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_12
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_13
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_14
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_15
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_16
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_17
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_18
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_19
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_20
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_21
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_22
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_23
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_24
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_25
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_26
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_27
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_28
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_29
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_30
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_31
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_32
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_33
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_34
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_35
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_36
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_37
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_38
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_39
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_40
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_41
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_42
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_43
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_44
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_45
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_46
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_47
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_48
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_49
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_50
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_51
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_52
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_53
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_54
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_55
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_56
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_57
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_58
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_59
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_60
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_61
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_62
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_63
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_64
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_65
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_66
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_67
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_68
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_69
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_70
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_71
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_72
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_73
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_74
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_75
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_76
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_77
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_78
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_79
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_80
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_81
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_82
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_83
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_84
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_85
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_86
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_87
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_88
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_89
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_90
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_91
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_92
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_93
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_94
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_95
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_96
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_97
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_98
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_99
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_100
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_101
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_102
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_103
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_104
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_105
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_106
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_107
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_108
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_109
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_110
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_111
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_112
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_113
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_114
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_115
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_116
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_117
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_118
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_119
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_120
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_121
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_122
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_123
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_124
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_125
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_126
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_127
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_128
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_129
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_130
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_131
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_132
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_133
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_134
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_135
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_136
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_137
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_138
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_139
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_140
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_141
+                       ForQA             saed32hvt_ss0p95v125c
+SNPS_CLOCK_GATE_HIGH_enigma_part2_mydesign_142
+                       ForQA             saed32hvt_ss0p95v125c
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+enigma_part2                             36.814  228.500 4.72e+08  737.709 100.0
+1
