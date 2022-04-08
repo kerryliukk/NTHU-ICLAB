@@ -1,0 +1,201 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 4
+Design : conv_top
+Version: R-2020.09-SP5
+Date   : Thu Dec 23 18:51:24 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss0p95v125c   Library: saed32hvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: bias_ff_reg_24_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: conv3x3_U0/conv3x3_4chout_reg_69_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  conv_top           140000                saed32hvt_ss0p95v125c
+  conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_3
+                     8000                  saed32hvt_ss0p95v125c
+  conv3x3_16to4ch_BW_BIAS23
+                     140000                saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  bias_ff_reg_24_/CLK (DFFX1_HVT)                         0.00 #     0.00 r
+  bias_ff_reg_24_/Q (DFFX1_HVT)                           0.19       0.19 r
+  conv3x3_U0/bias[24] (conv3x3_16to4ch_BW_BIAS23)         0.00       0.19 r
+  conv3x3_U0/conv_adder_U0/bias[0] (conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_3)
+                                                          0.00       0.19 r
+  conv3x3_U0/conv_adder_U0/U63/Y (AND3X1_HVT)             0.10       0.29 r
+  conv3x3_U0/conv_adder_U0/U153/Y (AND2X1_HVT)            0.08       0.37 r
+  conv3x3_U0/conv_adder_U0/U156/S (FADDX1_HVT)            0.12       0.49 f
+  conv3x3_U0/conv_adder_U0/intadd_36_U22/S (FADDX1_HVT)
+                                                          0.11       0.60 f
+  conv3x3_U0/conv_adder_U0/add_out[0] (conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_3)
+                                                          0.00       0.60 f
+  conv3x3_U0/conv3x3_4chout_reg_69_/D (DFFX1_HVT)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  conv3x3_U0/conv3x3_4chout_reg_69_/CLK (DFFX1_HVT)       0.00       0.00 r
+  library hold time                                      -0.02      -0.02
+  data required time                                                -0.02
+  --------------------------------------------------------------------------
+  data required time                                                -0.02
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.62
+
+
+  Startpoint: bias_ff_reg_16_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: conv3x3_U0/conv3x3_4chout_reg_46_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  conv_top           140000                saed32hvt_ss0p95v125c
+  conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_2
+                     8000                  saed32hvt_ss0p95v125c
+  conv3x3_16to4ch_BW_BIAS23
+                     140000                saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  bias_ff_reg_16_/CLK (DFFX1_HVT)                         0.00 #     0.00 r
+  bias_ff_reg_16_/Q (DFFX1_HVT)                           0.19       0.19 r
+  conv3x3_U0/bias[16] (conv3x3_16to4ch_BW_BIAS23)         0.00       0.19 r
+  conv3x3_U0/conv_adder_U1/bias[0] (conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_2)
+                                                          0.00       0.19 r
+  conv3x3_U0/conv_adder_U1/U61/Y (AND3X1_HVT)             0.10       0.29 r
+  conv3x3_U0/conv_adder_U1/U151/Y (AND2X1_HVT)            0.08       0.37 r
+  conv3x3_U0/conv_adder_U1/U154/S (FADDX1_HVT)            0.12       0.49 f
+  conv3x3_U0/conv_adder_U1/intadd_57_U22/S (FADDX1_HVT)
+                                                          0.11       0.60 f
+  conv3x3_U0/conv_adder_U1/add_out[0] (conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_2)
+                                                          0.00       0.60 f
+  conv3x3_U0/conv3x3_4chout_reg_46_/D (DFFX1_HVT)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  conv3x3_U0/conv3x3_4chout_reg_46_/CLK (DFFX1_HVT)       0.00       0.00 r
+  library hold time                                      -0.02      -0.02
+  data required time                                                -0.02
+  --------------------------------------------------------------------------
+  data required time                                                -0.02
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.62
+
+
+  Startpoint: bias_ff_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: conv3x3_U0/conv3x3_4chout_reg_23_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  conv_top           140000                saed32hvt_ss0p95v125c
+  conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_1
+                     8000                  saed32hvt_ss0p95v125c
+  conv3x3_16to4ch_BW_BIAS23
+                     140000                saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  bias_ff_reg_8_/CLK (DFFX1_HVT)                          0.00 #     0.00 r
+  bias_ff_reg_8_/Q (DFFX1_HVT)                            0.19       0.19 r
+  conv3x3_U0/bias[8] (conv3x3_16to4ch_BW_BIAS23)          0.00       0.19 r
+  conv3x3_U0/conv_adder_U2/bias[0] (conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_1)
+                                                          0.00       0.19 r
+  conv3x3_U0/conv_adder_U2/U61/Y (AND3X1_HVT)             0.10       0.29 r
+  conv3x3_U0/conv_adder_U2/U151/Y (AND2X1_HVT)            0.08       0.37 r
+  conv3x3_U0/conv_adder_U2/U154/S (FADDX1_HVT)            0.12       0.49 f
+  conv3x3_U0/conv_adder_U2/intadd_78_U22/S (FADDX1_HVT)
+                                                          0.11       0.60 f
+  conv3x3_U0/conv_adder_U2/add_out[0] (conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_1)
+                                                          0.00       0.60 f
+  conv3x3_U0/conv3x3_4chout_reg_23_/D (DFFX1_HVT)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  conv3x3_U0/conv3x3_4chout_reg_23_/CLK (DFFX1_HVT)       0.00       0.00 r
+  library hold time                                      -0.02      -0.02
+  data required time                                                -0.02
+  --------------------------------------------------------------------------
+  data required time                                                -0.02
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.62
+
+
+  Startpoint: bias_ff_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: conv3x3_U0/conv3x3_4chout_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  conv_top           140000                saed32hvt_ss0p95v125c
+  conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_0
+                     8000                  saed32hvt_ss0p95v125c
+  conv3x3_16to4ch_BW_BIAS23
+                     140000                saed32hvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  bias_ff_reg_0_/CLK (DFFX1_HVT)                          0.00 #     0.00 r
+  bias_ff_reg_0_/Q (DFFX1_HVT)                            0.19       0.19 r
+  conv3x3_U0/bias[0] (conv3x3_16to4ch_BW_BIAS23)          0.00       0.19 r
+  conv3x3_U0/conv_adder_U3/bias[0] (conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_0)
+                                                          0.00       0.19 r
+  conv3x3_U0/conv_adder_U3/U61/Y (AND3X1_HVT)             0.10       0.29 r
+  conv3x3_U0/conv_adder_U3/U151/Y (AND2X1_HVT)            0.08       0.37 r
+  conv3x3_U0/conv_adder_U3/U154/S (FADDX1_HVT)            0.12       0.49 f
+  conv3x3_U0/conv_adder_U3/intadd_99_U22/S (FADDX1_HVT)
+                                                          0.11       0.60 f
+  conv3x3_U0/conv_adder_U3/add_out[0] (conv_adder_BW_CONV1x118_BW_BIAS23_mydesign_0)
+                                                          0.00       0.60 f
+  conv3x3_U0/conv3x3_4chout_reg_0_/D (DFFX1_HVT)          0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  conv3x3_U0/conv3x3_4chout_reg_0_/CLK (DFFX1_HVT)        0.00       0.00 r
+  library hold time                                      -0.02      -0.02
+  data required time                                                -0.02
+  --------------------------------------------------------------------------
+  data required time                                                -0.02
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.62
+
+
+1
