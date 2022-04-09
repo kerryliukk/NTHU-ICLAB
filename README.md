@@ -47,7 +47,7 @@
         </tr>
         <tr>
             <th>lab10</th>
-            <th>PR Flow with IC Compiler (Design Setup and Floorplan)</th>
+            <th>APR Flow with IC Compiler (Design Setup and Floorplan)</th>
         </tr>
         <tr>
             <th>lab11</th>
