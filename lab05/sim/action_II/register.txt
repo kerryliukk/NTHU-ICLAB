@@ -1,6 +1,0 @@
-r1 =         16 ,the answer is          16
-
-r2 =         32 ,the answer is          32
-
-r3 =         16 ,the answer is          16
-

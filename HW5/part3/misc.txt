@@ -1,7 +1,0 @@
-107061218 謝霖泳
-Pass all three parts!
-A = 1920899
-T = 7
-C = 11748
-Performance index = A*T*C = 1.58*10^11
-rank = C

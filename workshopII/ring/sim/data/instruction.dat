@@ -1,9 +1,0 @@
-// ISA: (ReLU)_(PixelShuffle)_(srcSRAM)_(resSRAM"f:non")_(dstSRAM)_(CHout)_(CHin)_(blkH)_(blkW)_fl(actx4_flt_bias_idt)
-0_0_0_f_1_10_04 //conv1
-1_0_1_f_2_10_10 //conv2
-0_0_2_1_0_10_10 //conv3
-1_0_0_f_1_10_10 //conv4
-0_0_1_0_2_10_10 //conv5
-1_1_2_f_0_40_10 //upsampler1
-1_1_0_f_1_40_10 //upsampler2
-0_0_1_f_0_04_10 //conv6
