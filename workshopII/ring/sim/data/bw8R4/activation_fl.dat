@@ -1,9 +1,0 @@
-   8    // conv1.body.1                   8
-8888    // conv1.body.3.gp3              
-7887    // resblocks.0.body.3.gp3        
-8878    // resblocks.0.act_out.gp3       
-7887    // resblocks.1.body.3.gp3        
-7887    // resblocks.1.act_out.gp3       
-6676    // upsampler1.body.4.gp3         
-5666    // upsampler2.body.4.gp3         
-   8    // conv2.body.3                   8
